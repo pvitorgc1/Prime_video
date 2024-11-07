@@ -1,0 +1,310 @@
+/* ===========formatação=========== */
+@font-face {
+    font-family: 'amazonlight';
+    src: url(./prime\ video/AmazonEmber_Lt.woff);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'amazonlight', 'sans-serif';
+
+}
+html{
+    font-size: 62.5%;
+    
+}
+
+body{
+    list-style: none;
+}
+
+/* ==============header============== */
+
+.header{
+    display: flex;
+    height: 5.6rem;
+    width: 100%;
+    background-color: #00050d;
+    color: white;
+    display: flex;
+    justify-content: center ; 
+    font-size: 1.6rem;
+}
+
+.header nav{
+    display: flex   ;
+    align-items:center;
+    min-width: 60%;
+    justify-content: center;
+
+}
+
+.header .logo-seta, a:hover{
+    cursor: pointer;
+}
+
+.logo-seta{
+    display: flex;
+    margin: 0rem 1.5rem;
+    padding-right: 0.2rem;
+}
+
+.logo-seta svg{
+    transition: .5s;
+}
+
+.logo-seta svg:hover{
+    transform: rotate(180deg)
+
+    
+}
+
+.logo-seta a{
+    padding-right: 0rem;
+}
+
+
+.header a{
+    text-decoration: none;
+    color: #a9aaaa;
+    font-size: 1.7rem;
+    font-weight: 500;
+    padding: 1rem;
+    font-family: sans-serif;
+    justify-self: center;
+    align-items:center
+}
+
+.header img{
+    width: 12.8rem;
+    height: 2.4rem;
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+    }
+
+
+
+
+
+}
+.header a img{
+    width: 3.5rem;
+    height: 3.5rem;
+}
+
+/* ===========================Main=========================== */
+/* ======================Filmes e séries====================== */
+
+
+#filmes-e-series{
+    background-image: url(./prime\ video/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT5650.jpg);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+
+}
+
+.artigo-um{
+    width: 50%;
+    height: 67.5rem;
+    background-image: linear-gradient(to right, #000000 85%, #ffffff00 );
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 8.4rem;
+    justify-content: center;
+    gap: 4.8rem;
+}
+
+.artigo-um p{
+    font-size: 2rem;
+    
+}
+
+.artigo-um a{
+    display: flex;
+    background-color: #086cb4;
+    color: white;
+    text-decoration: none;
+    padding: 1.6rem;
+    cursor: pointer;
+    width: 28rem;
+    height: 5.1rem;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 4.6rem;
+}
+
+#div-ou{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28rem;
+    padding: 1rem 0;    
+}
+
+#div-ou p{
+    margin: 0rem 1rem;
+}
+
+#div-ou hr{
+    display: inline-block;
+    height: 1px;
+    width: 28rem;
+}
+
+.p small{
+    font-size: 1.2rem;
+}
+/* =========================canais========================= */
+
+.canais{
+    display: flex;
+    padding: 1.6rem 0rem;
+}
+
+.textos{
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5.6rem;
+
+}
+
+.textos h1{
+    margin-bottom: 4.6rem;
+    font-size: 4.6rem;
+    font-weight: 500;
+}
+
+.textos p{
+    font-size: 2.4rem;
+}
+
+.imagem-canais{
+    display: flex;
+    max-width: 50%;
+    flex-wrap: wrap;
+    gap: .8rem;
+}
+
+.imagem-canais img{
+    width: 25.5rem;
+    height: 18rem;
+    transition: .15s;
+}
+
+.imagem-canais img:hover{
+    box-shadow: 0rem 0rem 1rem .1rem black;
+    cursor: pointer;
+}
+/* ========================loja prime======================== */
+
+
+.loja{
+    background-image: url(./prime\ video/MLP_BG_left_1440x675.jpg);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    height: 64rem;
+    flex-direction: row-reverse;
+
+
+}
+
+.loja-texto{
+    width: 50%;
+    background-image: linear-gradient(to left, #000000 85%, #ffffff00 );
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 6.4rem;
+    padding-left: 12.8rem;
+    gap: 4.8rem;
+}
+
+.loja a{
+    width: 50%;
+    display: flex;
+    background-color: #086cb4;
+    color: white;
+    text-decoration: none;
+    padding: 1.6rem;
+    cursor: pointer;
+    width: 28rem;
+    height: 5.1rem;
+    font-size: 1.6rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.loja h2{
+    font-size: 4.6rem;
+}
+
+.loja p{
+    font-size: 2rem;
+}
+
+/* =======================dispositivos======================= */
+.dispositivos{
+    width: 100%;
+    display: flex;
+    gap: 3.2rem;
+    padding: 60px 5% 30px 5%;
+    justify-content: space-around;
+}
+
+.dispositivos article{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.6rem;
+    width: 54.4rem;
+    text-align: center;
+
+}
+
+.dispositivos h2{
+    font-size: 3.6rem;
+}
+
+.dispositivos p{
+    font-size: 1.6rem;
+}
+
+/* =======================footer======================= */
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #222222;
+    align-items: center;
+    color: #a9aaaa;
+    gap: .8rem;
+    height: 15.6rem;
+    width: 100%;
+    font-size: 1.6rem;
+}
+
+.footer a{
+   color:#0f79af;
+   gap: 1.6rem;
+   margin-right: 1rem;
+
+}
